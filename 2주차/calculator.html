@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS 기본 문법 실습 - 계산기</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        input {
+            width: 120px;
+            margin: 5px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 5px 10px;
+        }
+
+        #result {
+            margin-top: 15px;
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>간단 계산기</h1>
+
+    <input type="number" id="num1" placeholder="첫 번째 숫자">
+    <input type="number" id="num2" placeholder="두 번째 숫자">
+    <br>
+    <!-- 강의에서 함께 구현 -->
+    <button id="addBtn">+</button>
+    <button id="subtractBtn">-</button>
+
+    <!-- 과제: 곱하기, 나누기 연산 버튼 -->
+    <button id="multiplyBtn">×</button>
+    <button id="divideBtn">÷</button>
+
+    <!-- JS 파일 불러오기 -->
+    <script src="calculator.js"></script>
+</body>
+
+</html>

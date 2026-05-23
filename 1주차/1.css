@@ -1,0 +1,91 @@
+/* .profile-card {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px #ccc;
+  width: 300px;
+  margin: 24px auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  background: #f0f0f0;
+  padding: 10px;
+}
+.profile-card h2 {
+  color: #3b82f6;
+  margin-top: 0;
+}
+
+
+/* 기본 (PC 화면) */
+body {
+  background-color: #ffffff; /* PC 화면일 때 흰색 배경 */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.profile-card {
+  width: 30%;
+  margin: 50px auto;
+  padding: 20px;
+  background: #eaeaea;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-size: 20px;
+  text-align: center;
+}
+.profile-card h2 {
+  color: #3b82f6;
+  margin-top: 0;
+}
+p{
+  color: #555;
+  line-height: 1.5;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #007BFF;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile-card button:hover {
+  background: #0056b3;
+}
+
+/* 태블릿 (768px 이하) */
+@media (max-width: 768px) {
+  .profile-card {
+    width: 80%;
+    font-size: 18px;
+  }
+}
+
+/* 스마트폰 (480px 이하) */
+@media (max-width: 480px) {
+  .profile-card {
+    width: 95%;
+    font-size: 16px;
+  }
+  .profile-card button {
+    width: 100%; /* 버튼이 화면 가득 차게 */
+  }
+}
